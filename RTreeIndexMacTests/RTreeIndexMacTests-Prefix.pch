@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'RTreeIndexMacTests' target in the 'RTreeIndexMacTests' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

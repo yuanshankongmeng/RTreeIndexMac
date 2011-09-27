@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94FF30F31431611700F171CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FF30F21431611700F171CA /* Cocoa.framework */; };
+		94FF31011431611700F171CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FF30F21431611700F171CA /* Cocoa.framework */; };
+		94FF31041431611700F171CA /* libRTreeIndexMac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FF30EF1431611700F171CA /* libRTreeIndexMac.a */; };
+		94FF310A1431611700F171CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94FF31081431611700F171CA /* InfoPlist.strings */; };
+		94FF310D1431611700F171CA /* RTreeIndexMacTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 94FF310C1431611700F171CA /* RTreeIndexMacTests.h */; };
+		94FF310F1431611800F171CA /* RTreeIndexMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FF310E1431611800F171CA /* RTreeIndexMacTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94FF31021431611700F171CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94FF30E61431611700F171CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94FF30EE1431611700F171CA;
+			remoteInfo = RTreeIndexMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94FF30EF1431611700F171CA /* libRTreeIndexMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRTreeIndexMac.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FF30F21431611700F171CA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		94FF30F51431611700F171CA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		94FF30F61431611700F171CA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		94FF30F71431611700F171CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94FF30FA1431611700F171CA /* RTreeIndexMac-Prefix.pch */ = {isa = PBXFileReference; path = "RTreeIndexMac-Prefix.pch"; sourceTree = "<group>"; };
+		94FF31001431611700F171CA /* RTreeIndexMacTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTreeIndexMacTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FF31071431611700F171CA /* RTreeIndexMacTests-Info.plist */ = {isa = PBXFileReference; path = "RTreeIndexMacTests-Info.plist"; sourceTree = "<group>"; };
+		94FF31091431611700F171CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94FF310B1431611700F171CA /* RTreeIndexMacTests-Prefix.pch */ = {isa = PBXFileReference; path = "RTreeIndexMacTests-Prefix.pch"; sourceTree = "<group>"; };
+		94FF310C1431611700F171CA /* RTreeIndexMacTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTreeIndexMacTests.h; sourceTree = "<group>"; };
+		94FF310E1431611800F171CA /* RTreeIndexMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTreeIndexMacTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94FF30EC1431611700F171CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FF30F31431611700F171CA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FF30FC1431611700F171CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FF31011431611700F171CA /* Cocoa.framework in Frameworks */,
+				94FF31041431611700F171CA /* libRTreeIndexMac.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94FF30E41431611700F171CA = {
+			isa = PBXGroup;
+			children = (
+				94FF30F81431611700F171CA /* RTreeIndexMac */,
+				94FF31051431611700F171CA /* RTreeIndexMacTests */,
+				94FF30F11431611700F171CA /* Frameworks */,
+				94FF30F01431611700F171CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94FF30F01431611700F171CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94FF30EF1431611700F171CA /* libRTreeIndexMac.a */,
+				94FF31001431611700F171CA /* RTreeIndexMacTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94FF30F11431611700F171CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94FF30F21431611700F171CA /* Cocoa.framework */,
+				94FF30F41431611700F171CA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94FF30F41431611700F171CA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94FF30F51431611700F171CA /* AppKit.framework */,
+				94FF30F61431611700F171CA /* CoreData.framework */,
+				94FF30F71431611700F171CA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		94FF30F81431611700F171CA /* RTreeIndexMac */ = {
+			isa = PBXGroup;
+			children = (
+				94FF30F91431611700F171CA /* Supporting Files */,
+			);
+			path = RTreeIndexMac;
+			sourceTree = "<group>";
+		};
+		94FF30F91431611700F171CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94FF30FA1431611700F171CA /* RTreeIndexMac-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94FF31051431611700F171CA /* RTreeIndexMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				94FF310C1431611700F171CA /* RTreeIndexMacTests.h */,
+				94FF310E1431611800F171CA /* RTreeIndexMacTests.m */,
+				94FF31061431611700F171CA /* Supporting Files */,
+			);
+			path = RTreeIndexMacTests;
+			sourceTree = "<group>";
+		};
+		94FF31061431611700F171CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94FF31071431611700F171CA /* RTreeIndexMacTests-Info.plist */,
+				94FF31081431611700F171CA /* InfoPlist.strings */,
+				94FF310B1431611700F171CA /* RTreeIndexMacTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		94FF30ED1431611700F171CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		94FF30EE1431611700F171CA /* RTreeIndexMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94FF31121431611800F171CA /* Build configuration list for PBXNativeTarget "RTreeIndexMac" */;
+			buildPhases = (
+				94FF30EB1431611700F171CA /* Sources */,
+				94FF30EC1431611700F171CA /* Frameworks */,
+				94FF30ED1431611700F171CA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTreeIndexMac;
+			productName = RTreeIndexMac;
+			productReference = 94FF30EF1431611700F171CA /* libRTreeIndexMac.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		94FF30FF1431611700F171CA /* RTreeIndexMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94FF31151431611800F171CA /* Build configuration list for PBXNativeTarget "RTreeIndexMacTests" */;
+			buildPhases = (
+				94FF30FB1431611700F171CA /* Sources */,
+				94FF30FC1431611700F171CA /* Frameworks */,
+				94FF30FD1431611700F171CA /* Resources */,
+				94FF30FE1431611700F171CA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94FF31031431611700F171CA /* PBXTargetDependency */,
+			);
+			name = RTreeIndexMacTests;
+			productName = RTreeIndexMacTests;
+			productReference = 94FF31001431611700F171CA /* RTreeIndexMacTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94FF30E61431611700F171CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = tg;
+			};
+			buildConfigurationList = 94FF30E91431611700F171CA /* Build configuration list for PBXProject "RTreeIndexMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94FF30E41431611700F171CA;
+			productRefGroup = 94FF30F01431611700F171CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94FF30EE1431611700F171CA /* RTreeIndexMac */,
+				94FF30FF1431611700F171CA /* RTreeIndexMacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94FF30FD1431611700F171CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FF310A1431611700F171CA /* InfoPlist.strings in Resources */,
+				94FF310D1431611700F171CA /* RTreeIndexMacTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		94FF30FE1431611700F171CA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94FF30EB1431611700F171CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FF30FB1431611700F171CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FF310F1431611800F171CA /* RTreeIndexMacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94FF31031431611700F171CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94FF30EE1431611700F171CA /* RTreeIndexMac */;
+			targetProxy = 94FF31021431611700F171CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94FF31081431611700F171CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94FF31091431611700F171CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94FF31101431611800F171CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		94FF31111431611800F171CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		94FF31131431611800F171CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTreeIndexMac/RTreeIndexMac-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94FF31141431611800F171CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTreeIndexMac/RTreeIndexMac-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		94FF31161431611800F171CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTreeIndexMacTests/RTreeIndexMacTests-Prefix.pch";
+				INFOPLIST_FILE = "RTreeIndexMacTests/RTreeIndexMacTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		94FF31171431611800F171CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTreeIndexMacTests/RTreeIndexMacTests-Prefix.pch";
+				INFOPLIST_FILE = "RTreeIndexMacTests/RTreeIndexMacTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94FF30E91431611700F171CA /* Build configuration list for PBXProject "RTreeIndexMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FF31101431611800F171CA /* Debug */,
+				94FF31111431611800F171CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94FF31121431611800F171CA /* Build configuration list for PBXNativeTarget "RTreeIndexMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FF31131431611800F171CA /* Debug */,
+				94FF31141431611800F171CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94FF31151431611800F171CA /* Build configuration list for PBXNativeTarget "RTreeIndexMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FF31161431611800F171CA /* Debug */,
+				94FF31171431611800F171CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94FF30E61431611700F171CA /* Project object */;
+}
