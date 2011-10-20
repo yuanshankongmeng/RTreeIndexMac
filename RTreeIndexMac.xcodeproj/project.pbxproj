@@ -7,12 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		941B6A02144EC8AA00588842 /* ZMPageHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 941B6A00144EC8AA00588842 /* ZMPageHeader.h */; };
+		941B6A03144EC8AA00588842 /* ZMPageHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 941B6A01144EC8AA00588842 /* ZMPageHeader.m */; };
+		9470A695143B00E9005ACBE3 /* RTreeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9470A693143B00E8005ACBE3 /* RTreeHelper.h */; };
+		9470A696143B00E9005ACBE3 /* RTreeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9470A694143B00E9005ACBE3 /* RTreeHelper.m */; };
+		9477F4B31439B4AA0030F47C /* RecordHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9477F4B11439B4AA0030F47C /* RecordHeader.h */; };
+		9477F4B41439B4AA0030F47C /* RecordHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9477F4B21439B4AA0030F47C /* RecordHeader.m */; };
+		9477F4B81439DBBD0030F47C /* Point.h in Headers */ = {isa = PBXBuildFile; fileRef = 9477F4B61439DBBD0030F47C /* Point.h */; };
+		9477F4B91439DBBD0030F47C /* Point.m in Sources */ = {isa = PBXBuildFile; fileRef = 9477F4B71439DBBD0030F47C /* Point.m */; };
+		9477F4BC1439DD280030F47C /* ZMRectangle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9477F4BA1439DD270030F47C /* ZMRectangle.h */; };
+		9477F4BD1439DD280030F47C /* ZMRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9477F4BB1439DD280030F47C /* ZMRectangle.m */; };
+		9488D895144FBFC5009E4F37 /* ZMRTreeFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 9488D893144FBFC5009E4F37 /* ZMRTreeFile.h */; };
+		9488D896144FBFC5009E4F37 /* ZMRTreeFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9488D894144FBFC5009E4F37 /* ZMRTreeFile.m */; };
+		9488D89A145002F3009E4F37 /* ZMPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9488D898145002F3009E4F37 /* ZMPage.h */; };
+		9488D89B145002F3009E4F37 /* ZMPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9488D899145002F3009E4F37 /* ZMPage.m */; };
+		9488D89E145006D1009E4F37 /* ZMHeaderPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9488D89C145006D1009E4F37 /* ZMHeaderPage.h */; };
+		9488D89F145006D1009E4F37 /* ZMHeaderPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9488D89D145006D1009E4F37 /* ZMHeaderPage.m */; };
+		9488D8A214500E67009E4F37 /* ZMFileHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9488D8A014500E67009E4F37 /* ZMFileHeader.h */; };
+		9488D8A314500E67009E4F37 /* ZMFileHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9488D8A114500E67009E4F37 /* ZMFileHeader.m */; };
 		94FF30F31431611700F171CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FF30F21431611700F171CA /* Cocoa.framework */; };
 		94FF31011431611700F171CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FF30F21431611700F171CA /* Cocoa.framework */; };
 		94FF31041431611700F171CA /* libRTreeIndexMac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FF30EF1431611700F171CA /* libRTreeIndexMac.a */; };
 		94FF310A1431611700F171CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94FF31081431611700F171CA /* InfoPlist.strings */; };
 		94FF310D1431611700F171CA /* RTreeIndexMacTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 94FF310C1431611700F171CA /* RTreeIndexMacTests.h */; };
 		94FF310F1431611800F171CA /* RTreeIndexMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FF310E1431611800F171CA /* RTreeIndexMacTests.m */; };
+		94FF3119143161AF00F171CA /* Enums.h in Headers */ = {isa = PBXBuildFile; fileRef = 94FF3118143161AF00F171CA /* Enums.h */; };
+		94FF311B143161E200F171CA /* Structs.h in Headers */ = {isa = PBXBuildFile; fileRef = 94FF311A143161E200F171CA /* Structs.h */; };
+		94FF311E1431644800F171CA /* Record.h in Headers */ = {isa = PBXBuildFile; fileRef = 94FF311C1431644800F171CA /* Record.h */; };
+		94FF311F1431644800F171CA /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FF311D1431644800F171CA /* Record.m */; };
+		94FF3122143165C700F171CA /* PointRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 94FF3120143165C700F171CA /* PointRecord.h */; };
+		94FF3123143165C700F171CA /* PointRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FF3121143165C700F171CA /* PointRecord.m */; };
+		94FF3126143172DF00F171CA /* RectangleRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 94FF3124143172DF00F171CA /* RectangleRecord.h */; };
+		94FF3127143172DF00F171CA /* RectangleRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FF3125143172DF00F171CA /* RectangleRecord.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,18 +52,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		941B6A00144EC8AA00588842 /* ZMPageHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMPageHeader.h; sourceTree = "<group>"; };
+		941B6A01144EC8AA00588842 /* ZMPageHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMPageHeader.m; sourceTree = "<group>"; };
+		9470A693143B00E8005ACBE3 /* RTreeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTreeHelper.h; sourceTree = "<group>"; };
+		9470A694143B00E9005ACBE3 /* RTreeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTreeHelper.m; sourceTree = "<group>"; };
+		9477F4B11439B4AA0030F47C /* RecordHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordHeader.h; sourceTree = "<group>"; };
+		9477F4B21439B4AA0030F47C /* RecordHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordHeader.m; sourceTree = "<group>"; };
+		9477F4B61439DBBD0030F47C /* Point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point.h; sourceTree = "<group>"; };
+		9477F4B71439DBBD0030F47C /* Point.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Point.m; sourceTree = "<group>"; };
+		9477F4BA1439DD270030F47C /* ZMRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMRectangle.h; sourceTree = "<group>"; };
+		9477F4BB1439DD280030F47C /* ZMRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMRectangle.m; sourceTree = "<group>"; };
+		9488D893144FBFC5009E4F37 /* ZMRTreeFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMRTreeFile.h; sourceTree = "<group>"; };
+		9488D894144FBFC5009E4F37 /* ZMRTreeFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMRTreeFile.m; sourceTree = "<group>"; };
+		9488D898145002F3009E4F37 /* ZMPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMPage.h; sourceTree = "<group>"; };
+		9488D899145002F3009E4F37 /* ZMPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMPage.m; sourceTree = "<group>"; };
+		9488D89C145006D1009E4F37 /* ZMHeaderPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMHeaderPage.h; sourceTree = "<group>"; };
+		9488D89D145006D1009E4F37 /* ZMHeaderPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMHeaderPage.m; sourceTree = "<group>"; };
+		9488D8A014500E67009E4F37 /* ZMFileHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMFileHeader.h; sourceTree = "<group>"; };
+		9488D8A114500E67009E4F37 /* ZMFileHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMFileHeader.m; sourceTree = "<group>"; };
 		94FF30EF1431611700F171CA /* libRTreeIndexMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRTreeIndexMac.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		94FF30F21431611700F171CA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		94FF30F51431611700F171CA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		94FF30F61431611700F171CA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		94FF30F71431611700F171CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		94FF30FA1431611700F171CA /* RTreeIndexMac-Prefix.pch */ = {isa = PBXFileReference; path = "RTreeIndexMac-Prefix.pch"; sourceTree = "<group>"; };
+		94FF30FA1431611700F171CA /* RTreeIndexMac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RTreeIndexMac-Prefix.pch"; sourceTree = "<group>"; };
 		94FF31001431611700F171CA /* RTreeIndexMacTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTreeIndexMacTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		94FF31071431611700F171CA /* RTreeIndexMacTests-Info.plist */ = {isa = PBXFileReference; path = "RTreeIndexMacTests-Info.plist"; sourceTree = "<group>"; };
+		94FF31071431611700F171CA /* RTreeIndexMacTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RTreeIndexMacTests-Info.plist"; sourceTree = "<group>"; };
 		94FF31091431611700F171CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		94FF310B1431611700F171CA /* RTreeIndexMacTests-Prefix.pch */ = {isa = PBXFileReference; path = "RTreeIndexMacTests-Prefix.pch"; sourceTree = "<group>"; };
+		94FF310B1431611700F171CA /* RTreeIndexMacTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RTreeIndexMacTests-Prefix.pch"; sourceTree = "<group>"; };
 		94FF310C1431611700F171CA /* RTreeIndexMacTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTreeIndexMacTests.h; sourceTree = "<group>"; };
 		94FF310E1431611800F171CA /* RTreeIndexMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTreeIndexMacTests.m; sourceTree = "<group>"; };
+		94FF3118143161AF00F171CA /* Enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enums.h; sourceTree = "<group>"; };
+		94FF311A143161E200F171CA /* Structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Structs.h; sourceTree = "<group>"; };
+		94FF311C1431644800F171CA /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Record.h; sourceTree = "<group>"; };
+		94FF311D1431644800F171CA /* Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Record.m; sourceTree = "<group>"; };
+		94FF3120143165C700F171CA /* PointRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointRecord.h; sourceTree = "<group>"; };
+		94FF3121143165C700F171CA /* PointRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointRecord.m; sourceTree = "<group>"; };
+		94FF3124143172DF00F171CA /* RectangleRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleRecord.h; sourceTree = "<group>"; };
+		94FF3125143172DF00F171CA /* RectangleRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleRecord.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +155,32 @@
 			isa = PBXGroup;
 			children = (
 				94FF30F91431611700F171CA /* Supporting Files */,
+				94FF3118143161AF00F171CA /* Enums.h */,
+				94FF311A143161E200F171CA /* Structs.h */,
+				94FF311C1431644800F171CA /* Record.h */,
+				94FF311D1431644800F171CA /* Record.m */,
+				94FF3120143165C700F171CA /* PointRecord.h */,
+				94FF3121143165C700F171CA /* PointRecord.m */,
+				94FF3124143172DF00F171CA /* RectangleRecord.h */,
+				94FF3125143172DF00F171CA /* RectangleRecord.m */,
+				9477F4B11439B4AA0030F47C /* RecordHeader.h */,
+				9477F4B21439B4AA0030F47C /* RecordHeader.m */,
+				9477F4B61439DBBD0030F47C /* Point.h */,
+				9477F4B71439DBBD0030F47C /* Point.m */,
+				9477F4BA1439DD270030F47C /* ZMRectangle.h */,
+				9477F4BB1439DD280030F47C /* ZMRectangle.m */,
+				9470A693143B00E8005ACBE3 /* RTreeHelper.h */,
+				9470A694143B00E9005ACBE3 /* RTreeHelper.m */,
+				941B6A00144EC8AA00588842 /* ZMPageHeader.h */,
+				941B6A01144EC8AA00588842 /* ZMPageHeader.m */,
+				9488D893144FBFC5009E4F37 /* ZMRTreeFile.h */,
+				9488D894144FBFC5009E4F37 /* ZMRTreeFile.m */,
+				9488D898145002F3009E4F37 /* ZMPage.h */,
+				9488D899145002F3009E4F37 /* ZMPage.m */,
+				9488D89C145006D1009E4F37 /* ZMHeaderPage.h */,
+				9488D89D145006D1009E4F37 /* ZMHeaderPage.m */,
+				9488D8A014500E67009E4F37 /* ZMFileHeader.h */,
+				9488D8A114500E67009E4F37 /* ZMFileHeader.m */,
 			);
 			path = RTreeIndexMac;
 			sourceTree = "<group>";
@@ -142,6 +220,20 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94FF3119143161AF00F171CA /* Enums.h in Headers */,
+				94FF311B143161E200F171CA /* Structs.h in Headers */,
+				94FF311E1431644800F171CA /* Record.h in Headers */,
+				94FF3122143165C700F171CA /* PointRecord.h in Headers */,
+				94FF3126143172DF00F171CA /* RectangleRecord.h in Headers */,
+				9477F4B31439B4AA0030F47C /* RecordHeader.h in Headers */,
+				9477F4B81439DBBD0030F47C /* Point.h in Headers */,
+				9477F4BC1439DD280030F47C /* ZMRectangle.h in Headers */,
+				9470A695143B00E9005ACBE3 /* RTreeHelper.h in Headers */,
+				941B6A02144EC8AA00588842 /* ZMPageHeader.h in Headers */,
+				9488D895144FBFC5009E4F37 /* ZMRTreeFile.h in Headers */,
+				9488D89A145002F3009E4F37 /* ZMPage.h in Headers */,
+				9488D89E145006D1009E4F37 /* ZMHeaderPage.h in Headers */,
+				9488D8A214500E67009E4F37 /* ZMFileHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +282,7 @@
 		94FF30E61431611700F171CA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = tg;
 			};
 			buildConfigurationList = 94FF30E91431611700F171CA /* Build configuration list for PBXProject "RTreeIndexMac" */;
@@ -243,6 +336,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94FF311F1431644800F171CA /* Record.m in Sources */,
+				94FF3123143165C700F171CA /* PointRecord.m in Sources */,
+				94FF3127143172DF00F171CA /* RectangleRecord.m in Sources */,
+				9477F4B41439B4AA0030F47C /* RecordHeader.m in Sources */,
+				9477F4B91439DBBD0030F47C /* Point.m in Sources */,
+				9477F4BD1439DD280030F47C /* ZMRectangle.m in Sources */,
+				9470A696143B00E9005ACBE3 /* RTreeHelper.m in Sources */,
+				941B6A03144EC8AA00588842 /* ZMPageHeader.m in Sources */,
+				9488D896144FBFC5009E4F37 /* ZMRTreeFile.m in Sources */,
+				9488D89B145002F3009E4F37 /* ZMPage.m in Sources */,
+				9488D89F145006D1009E4F37 /* ZMHeaderPage.m in Sources */,
+				9488D8A314500E67009E4F37 /* ZMFileHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +498,7 @@
 				94FF31141431611800F171CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94FF31151431611800F171CA /* Build configuration list for PBXNativeTarget "RTreeIndexMacTests" */ = {
 			isa = XCConfigurationList;
@@ -401,6 +507,7 @@
 				94FF31171431611800F171CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
