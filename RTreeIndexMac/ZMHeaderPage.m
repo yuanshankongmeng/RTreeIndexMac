@@ -7,7 +7,31 @@
 //
 
 #import "ZMHeaderPage.h"
+#import "ZMFileHeader.h"
 
 @implementation ZMHeaderPage
 
+@synthesize fileHeader = fileHeader_;
+
+
+- (void)read
+{
+    
+    [fileHandle_ seekToFileOffset:0];
+    [fileHeader_ read:reader_];
+
+}
+
+- (void)write
+{
+    [fileHandle_ seekToFileOffset:0];
+    [fileHeader_  write:writer_];
+    isDirty_ = YES;
+    [self flush];
+}
+
+- (NSString*)dump
+{
+    return [fileHeader_ description];
+}
 @end

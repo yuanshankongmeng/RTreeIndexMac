@@ -7,7 +7,7 @@
 //
 
 #import "ZMRTreeFile.h"
-
+#import "ZMPageHeader.h"
 
 
 @implementation ZMRTreeFile 
@@ -16,5 +16,27 @@
 @synthesize pageSize = pageSize_;
 @synthesize isReadonly = isReadOnly_;
 
+- (id)init
+{
+    if([super init]){
+        
+    }
+    return  self;
+}
+
+
+- (void)dealloc
+{
+    [ZMPageHeader release];
+     
+}
+
+- (void)openFile:(NSString *)file isReadonly:(BOOL)readOnly
+{
+    if(isOpen_){
+        return;
+    }
+    
+}
 
 @end

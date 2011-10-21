@@ -14,11 +14,14 @@
 @interface ZMPage : NSObject
 {
     ZMRTreeFile* rtreeFile_;
+    NSFileHandle* fileHandle_;
+    NSData* reader_;
+    NSMutableData* writer_;
     UInt32 pageNo_;
     GistExtentionId gistId_;
     BOOL isDirty_;
     BOOL isFloat_;
-    int pageSize;
+    int pageSize_;
 }
 
 @property UInt32 pageNumber;
@@ -26,14 +29,14 @@
 @property(readonly) BOOL isFloat;
 @property(readonly, assign) ZMRTreeFile* rTreeFile;
 
--(id)initWithFile:(NSString*)file;
--(id)initWithFile:(NSString *)file pageNo:(UInt32)pageNo;
--(id)initWithFile:(NSString*)file gistType:(GistExtentionId)typeId;
--(id)initWithFile:(NSString *)file pageNo:(UInt32)pageNo gistType:(GistExtentionId)typeId;
+-(id)initWithFile:(ZMRTreeFile*)file;
+-(id)initWithFile:(ZMRTreeFile *)file pageNo:(UInt32)pageNo;
+-(id)initWithFile:(ZMRTreeFile*)file gistType:(GistExtentionId)typeId;
+-(id)initWithFile:(ZMRTreeFile *)file pageNo:(UInt32)pageNo gistType:(GistExtentionId)typeId;
 
 -(void)close;
 -(void)flush;
 -(void)load;
--(void)dump;
+-(NSString*)dump;
 -(void)setModified;
 @end

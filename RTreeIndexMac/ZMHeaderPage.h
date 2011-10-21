@@ -7,7 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ZMPage.h"
 
-@interface ZMHeaderPage : NSObject
+@class ZMFileHeader;
+
+
+@interface ZMHeaderPage : ZMPage
+{
+    ZMFileHeader* fileHeader_;
+    
+}
+
+@property(retain) ZMFileHeader* fileHeader;
+
+-(void)read;
+-(void)write;
 
 @end
